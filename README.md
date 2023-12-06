@@ -8,3 +8,11 @@
 6. Commit
 7. Go to conflict-branch (`git checkout conflict-branch`)
 8. Try to merge main inside conflict-branch (`git merge main`)
+
+# Best practice to avoid conflicts
+
+1. Make sure that your main branch is up to date. Especially when you create feature branch from your main branch.
+2. Make sure that your feature branch is always up to date with your main branch by running `git merge main-branch-name`
+3. Use VS Code editor interface to solve merge conflicts easily.
+
+Good luck 💪 
